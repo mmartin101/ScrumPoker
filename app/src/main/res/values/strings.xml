@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Scrum Poker</string>
+    <string name="title_default">Default Deck</string>
+    <string name="title_tshirt">T-Shirt Deck</string>
+    <string name="title_fibonacci">Fibonacci Deck</string>
+    <string name="title_playing_cards">Playing Cards Deck</string>
+    <string name="title_sequential">Sequential Deck</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Default Deck -->
+    <string-array name="default_deck">
+        <item name="default_zero">0</item>
+        <item name="default_half">\u00BD</item>
+        <item name="default_one">1</item>
+        <item name="default_two">2</item>
+        <item name="default_three">3</item>
+        <item name="default_five">5</item>
+        <item name="default_eight">8</item>
+        <item name="default_thirteen">13</item>
+        <item name="default_twenty">20</item>
+        <item name="default_forty">40</item>
+        <item name="default_hundred">100</item>
+        <item name="default_unknown">\?</item>
+        <item name="default_coffee">\u2615</item>
+    </string-array>
+
+    <!-- T-Shirt Deck -->
+    <string-array name="tshirt_deck">
+        <item name="tshirt_xs">XS</item>
+        <item name="tshirt_s">S</item>
+        <item name="tshirt_m">M</item>
+        <item name="tshirt_l">L</item>
+        <item name="tshirt_xl">XL</item>
+        <item name="tshirt_unknown">\?</item>
+    </string-array>
+
+    <!-- Fibonacci Deck -->
+    <string-array name="fibonacci_deck">
+        <item name="fibonacci_zero">0</item>
+        <item name="fibonacci_one">1</item>
+        <item name="fibonacci_two">2</item>
+        <item name="fibonacci_three">3</item>
+        <item name="fibonacci_five">5</item>
+        <item name="fibonacci_eight">8</item>
+        <item name="fibonacci_thirteen">13</item>
+        <item name="fibonacci_twenty_one">21</item>
+        <item name="fibonacci_thirty_four">34</item>
+        <item name="fibonacci_fifty_five">55</item>
+        <item name="fibonacci_eighty_nine">89</item>
+        <item name="fibonacci_unknown">\?</item>
+    </string-array>
+
+    <!-- Playing Cards Deck -->
+    <string-array name="playing_cards_deck">
+        <item name="playing_cards_ace">Ace</item>
+        <item name="playing_cards_two">2</item>
+        <item name="playing_cards_three">3</item>
+        <item name="playing_cards_five">5</item>
+        <item name="playing_cards_eight">8</item>
+        <item name="playing_cards_king">King</item>
+    </string-array>
+
+    <!-- Sequential Deck -->
+    <string-array name="sequential_deck">
+        <item name="sequential_zero">0</item>
+        <item name="sequential_one">1</item>
+        <item name="sequential_two">2</item>
+        <item name="sequential_three">3</item>
+        <item name="sequential_four">4</item>
+        <item name="sequential_five">5</item>
+        <item name="sequential_six">6</item>
+        <item name="sequential_seven">7</item>
+        <item name="sequential_eight">8</item>
+        <item name="sequential_nine">9</item>
+        <item name="sequential_ten">10</item>
+        <item name="sequential_unknown">\?</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_show_card">ShowCardActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>
