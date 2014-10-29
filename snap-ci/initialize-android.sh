@@ -3,7 +3,7 @@
 # raise an error if any command fails!
 set -e
 
-INITIALIZATION_FILE="$ANDROID_HOME/.initialized-dependencies"
+INITIALIZATION_FILE="$ANDROID_HOME/.initialized-dependencies-$(git log -n 1 --format=%h -- $0)"
 
 if [ ! -e ${INITIALIZATION_FILE} ]; then
   # fetch and initialize $ANDROID_HOME
@@ -17,6 +17,7 @@ if [ ! -e ${INITIALIZATION_FILE} ]; then
 
   echo y | android update sdk --no-ui --filter extra-android-support --all > /dev/null
   echo y | android update sdk --no-ui --filter extra-google-m2repository --all > /dev/null
+  echo y | android update sdk --no-ui --filter extra-android-m2repository --all > /dev/null
 
   # The SDK version used to compile your project
   echo y | android update sdk --no-ui --filter android-21 > /dev/null
